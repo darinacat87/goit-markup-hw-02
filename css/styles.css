@@ -227,7 +227,7 @@ text-decoration: none;
 
 /* Portfolio section */
 
-.portfolio {
+.portfolio-main {
     background-color: var(--main-bg-cl);
 }
 
@@ -239,10 +239,11 @@ text-decoration: none;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-txt-cl);
+    cursor: pointer;
 }
 
 .navigation-btn:hover,
-.navigation-btn:active {
+.navigation-btn:focus {
     background-color: var(--accent-bg-cl);
     color: var(--secondary-txt-cl);
 }
